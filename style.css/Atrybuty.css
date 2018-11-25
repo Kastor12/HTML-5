@@ -1,0 +1,45 @@
+body{
+      background-color: rgb(90, 70, 167);
+      color: blue;
+}
+p{
+         color:rgb(6, 6, 6);
+}
+#wzgórza{
+         color: rgb(24, 82, 187, 0.83);}
+
+h1, h2 {
+       color:rgb(63, 51, 204, 0.77);
+       font-family: "Comiic Sens MS";}
+a:link
+      {color:magenta;
+}
+a:visited
+         {color:rgb(188, 217, 50, 0.67);
+}
+a:hover
+         { color:black;
+            cursor:crosshair;
+            text-decoration: underline;
+         }
+      a:active
+                 {
+                    color:white;
+                    background-color: hotpink;
+                 }
+      a:hover,a:active
+                 {
+                  color:white
+                 }
+                 ul>a:link
+                     {
+                     color:black;
+                  }
+/*Selektor elemętu potomnego*/
+h1 a:link{
+          /color:rgba(227, 201, 51, 0.73);
+         }
+         /*Selektor elemętu sąsiadującego bezpośrednio*/
+h4+p{
+      color: red;
+   }

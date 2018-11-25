@@ -1,0 +1,79 @@
+*
+   background-color: rgb(178,185,181);
+@font-face {
+   font-family: Montez
+   src: url(./../Fonty/Scriptina Pro.otf)
+}
+   #gorgia
+           {font-family:Georgia; }
+   #times #tnr
+           {font-family:times Times New Roman;
+          }
+
+   .Bezszeryfowa{font-family: Arial,Verdana;
+   }
+   #helvetika{
+              font-family: helvetika;
+           }
+#normalna{font-weight: normal;}
+
+#pogrubiona{font-weight: bold;}
+
+#pogrubiona{font-weight: normal;}
+
+#normalna{font-style: normal;}
+
+h4{color:red;}
+
+#kursywa{
+         font-style: italic;
+}
+#pochylona{font-style: oblique;
+
+}
+h1
+
+{
+   font-size: 150%
+   text-transform: uppercase;
+}
+.firstUpper{text-transform: capitalize;
+color:rgba}
+
+#normalny {text-decoration: none;
+line-height: 5.5em
+
+}
+#podkreślony{underline;
+line-height: 5.5em
+}
+
+#INT{overline;}
+
+
+#przekreślenie{text-decoration: line-through;
+}
+
+
+#normalny,#podkresalony,#INT,#przekreslony{line-height: 1.5em
+}
+
+
+#Odległości
+{text-transform: uppercase;
+   letter-spacing: 0.25em;
+   word-speacing:
+}
+#Lewy{text-align: left;
+}
+#Prawy{text-align: right;}
+
+#Srodek{text-align: justify;}
+
+#wyjustuj{text-align: center;}
+
+
+#góra{
+      background-color:rgb(83, 143, 71),
+      height:100px;
+      vertical-align: bottom;   }
